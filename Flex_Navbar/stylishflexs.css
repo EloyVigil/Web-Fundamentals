@@ -1,0 +1,27 @@
+.nav{
+    display:flex;
+    justify-content:space-between ;
+}
+.nav-title{
+    align-items: center;
+    padding-left: 20px;
+}
+.nav-links{
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+    gap:20px;
+}
+.btn{
+    border:2px solid black;
+    box-shadow: 3px 6px 3px black;
+    background-color: rgb(31, 188, 224);
+    color:whitesmoke;
+    height:30px;
+    width:90px;
+    font-size: 1em;
+}
+li{
+    /* margin: 0px 10px; */
+}

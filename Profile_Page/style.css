@@ -1,0 +1,219 @@
+*{
+    margin:0;
+    padding: 0;
+}
+
+#topnavbar{
+    width:100%;
+    height: 60px;
+    position:fixed;
+    top: 0px;
+    background-color: rgb(0, 0, 0);
+    color:whitesmoke;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+button{
+    height: 70%;
+    width: 100px;
+    font-size:larger;
+    background-color: rgb(3, 114, 154);
+    color: whitesmoke;
+}
+
+.profiletitle{
+    font-size: 2em;
+}
+
+#contentbox{
+    height: 800px;
+    width: 87%;
+    margin: 0 auto;
+    padding-top: 100px;
+    display:flex;
+    justify-content: space-between;
+}
+
+#leftsidebox{
+    height: 100%;
+    width: 60%;
+}
+
+
+#container1{
+    border:2px solid black;
+    height: 350px;
+    width:100%;
+}
+
+#bluebox{
+    background-color: rgb(7, 143, 170);
+    width:100%;
+    height:100px;
+}
+
+.userpic{
+    height:100px;
+    border: 3px whitesmoke;
+    position: relative;
+    padding-top: 50px;
+    padding-left: 25px;
+}
+
+.mappic{
+    height:25px;
+}
+
+#mapmarker, h2{
+    display: inline-block;
+}
+
+#editprofile{
+    text-decoration: underline;
+    padding-top: 15px;
+}
+
+.gear{
+    height: 15px;
+}
+
+#text{
+    padding-top: 55px;
+    padding-left: 25px;
+}
+
+h2{
+    padding: 15px 5px;
+}
+
+#educationbox{
+    width: 100%;
+    height: 450px;
+    margin-top: 35px;
+    outline: 3px solid lightgray;
+}
+
+#educationheader{
+    height: 15%;
+    width: calc(100% - 20px);
+    background-color: rgb(71, 70, 70);
+    color: whitesmoke;
+    padding-left: 20px;
+    display: flex;
+    align-items: center;
+}
+
+#rightsidebox{
+    height: 100%;
+    width: 35%;
+}
+
+#connectionbox1{
+    height:200px;
+    width: 100%;
+    /* background-color: gold; */
+    outline: 2px solid lightgrey;
+}
+
+#requestheader{
+    height: 25%;
+    width: 100%;
+    background-color: rgb(71, 70, 70);
+    color: whitesmoke;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.amountofconnectionrequest{
+    color: rgb(71, 70, 70);
+    background-color: lightgray;
+    height: 60%;
+    width: 20px;
+    padding-left: 50%;
+    border-radius: 50%;
+}
+
+.connectionrequestoptions{
+}
+
+.profileandname{
+    height:30px;
+    width: 350px;
+    padding-left: 15px;
+    display: flex;
+}
+
+.profilepics{
+    height:30px;
+}
+
+.profilestandard{
+    display:flex;
+    justify-content: space-between;
+    padding-top: 25px;
+}
+
+.namesonly{
+    height:30px;
+    padding-left: 25px;
+}
+
+#checkbox1{
+    height:30px;
+    width: 125px;
+}
+
+.closepic{
+    height: 30px;
+}
+
+.acceptpic{
+    height: 30px;
+}
+
+#connectionbox2{
+    height: 345px;
+    width: 100%;
+    margin-top: 25px;
+    outline: 3px solid lightgray;
+}
+
+.amountofconnections{
+    color: rgb(71, 70, 70);
+    background-color: lightgray;
+    height: 60%;
+    width: 75px;
+    padding-left: 20%;
+    border-radius: 50%;
+}
+
+#viewmorebox{
+    height:30px;
+    outline: 3px solid lightgray;
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.viewmore{
+    display: flex;
+    align-items: center;
+}
+
+.educationtext{
+    padding-top: 50px;
+    padding-left:20px;
+    
+}
+
+.date{
+    color: rgb(158, 156, 156);
+    padding-top: 10px;
+}
+
+.viewmorelink{
+    padding-left: 15px;
+}
