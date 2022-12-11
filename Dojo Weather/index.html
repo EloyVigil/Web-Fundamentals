@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dojo Weather</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <nav>
+        <div id="navalign">
+            <h1>Dojo Weather</h1>
+            <div id="citys">
+                <h2 onclick="alert('loading Burbank weather report...')" class="citynames">Burbank</h2>
+                <h2 onclick="alert('loading Chicago weather report...')" class="citynames">Chicago</h2>
+                <h2 onclick="alert('loading Dallas weather report...')" class="citynames">Dallas</h2>
+            </div>
+        </div>
+    </nav>
+    <main>
+        <div id="cityindicator">
+            <h1>San Jose</h1>
+            <div id="tempselect">
+                <label>Show temperature in</label>
+                <select onchange="tempchange()">
+                    <option>°C</option>
+                    <option>°F</option>
+                </select>
+            </div>
+        </div>
+        <div id="outlook">
+            <div class="daysout">
+                <h1>Today</h1>
+                <img src="assets/some_rain.png" alt="Rain Clouds" class="skypic">
+                <h3>some rain</h3>
+                <div id="tempbox">
+                    <h2 class="temp">24</h2>
+                    <h2 class="temp"><span class="nighttemp">18</span></h2>
+                </div>
+            </div>
+            <div class="daysout">
+                <h1>Tomorrow</h1>
+                <img src="assets/some_sun.png" alt="sun" class="skypic">
+                <h3>some sun</h3>
+                <div id="tempbox">
+                    <h2 class="temp">27</h2>
+                    <h2 class="temp"><span class="nighttemp">19</span></h2>
+                </div>
+            </div>
+            <div class="daysout">
+                <h1>Friday</h1>
+                <img src="assets/some_clouds.png" alt="Clouds" class="skypic">
+                <h3>some clouds</h3>
+                <div id="tempbox">
+                        <h2 class="temp">21</h2>
+                        <h2 class="temp"><span class="nighttemp">16</span></h2>
+                </div>
+            </div>
+            <div class="daysout">
+                <h1>Saturday</h1>
+                <img src="assets/some_sun.png" alt="sun" class="skypic">
+                <h3>some sun</h3>
+                <div id="tempbox">
+                    <h2 class="temp">26</h2>
+                    <h2 class="temp"><span class="nighttemp">21</span></h2>
+                </div>
+            </div>
+        </div>
+        <div id="cookiebox">
+            <img src="assets/cookie.png" alt="cookie" id="cookiepic">
+            <div>
+                <h1><b>Stop! Cookie Time</b></h1>
+            <p>We use cookies (sadly not the edible ones) to personalize content and ads, to provide social features and to analyse our traffic. <a href="#">Read More</a></p>
+            </div>
+            <button onclick="cookiegone()" id="accept">I Accept</button>
+        </div>
+
+    </main>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
