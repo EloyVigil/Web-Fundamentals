@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dojonary</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <nav id="navbar">
+        <div id="navbox">
+            <div>
+                <h1 id="dojonav"><strong>Dojonary</strong></h1>
+            </div>
+            <div id="searchbox">
+                <input type="Search" name="search" placeholder="Search">
+            </div>
+            <div>
+                <button onclick="loginchange()" id="loginbutton">Login</button>
+            </div>
+        </div>
+    </nav>
+    <div id="mainbox">
+        <div id="maincontentleft">
+            <div id="lefttopbox">
+                <div class="leftcolumn1">
+                    <div class="leftctext">
+                        <h1 class="bigninja">ninja</h1>
+                    </div>
+                    <div class="leftctext">
+                        <h3><i>noun</i></h3>
+                    </div>
+                    <div class="leftctext">
+                        <h3>Plural: <i>ninjas</i></h3>
+                    </div>
+                    <div class="leftctext">
+                        <button onclick="alertliked1(this)" id="likes1">13 likes</button>
+                    </div>
+                </div>
+                <div class="leftcolumn2">
+                    <div>
+                        <p>A practitioner skilled in the</p>
+                        <p><a href="#">Japanese</a> art of <a href="#">ninjitsu</a></p>
+                    </div>
+                </div>
+            </div>
+            <div id="leftbottombox">
+                <div class="leftcolumn1">
+                    <div class="leftctext">
+                        <h1 class="bigninja">ninja</h1>
+                    </div>
+                    <div class="leftctext">
+                        <h3><i>noun</i></h3>
+                    </div>
+                    <div class="leftctext">
+                        <h3>Plural: <i>ninjas</i></h3>
+                    </div>
+                    <div class="leftctext">
+                        <button onclick="alertliked2(this)" id="likes1">37 likes</button>
+                    </div>
+                </div>
+                <div class="leftcolumn2">
+                    <div>
+                        <p>A <a href="#">programmer</a> who breaks</p>
+                        <p>down problems with <a href="#">zen</a>-like</p>
+                        <p>focus</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="maincontentright">
+            <div id="righttopbox">
+                <div id="righttoptext">
+                    <h1>Dojonary is defined by YOU</h1>
+                </div>
+                <div id="addbut">
+                    <button onclick="addbuttonremoval(this)" id="adddefbutton"><strong>Add Defination</strong></button>
+                <div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
